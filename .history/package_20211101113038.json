@@ -1,0 +1,35 @@
+{
+    "name": "webpack-ii",
+    "version": "1.0.0",
+    "description": "A custom webpack dev server",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack-dev-server -d --hot --config webpack.config.js --watch --mode development"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Sanshit-sagar/webpack-II.git"
+    },
+    "author": "Sanshit Sagar",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Sanshit-sagar/webpack-II/issues"
+    },
+    "homepage": "https://github.com/Sanshit-sagar/webpack-II#readme",
+    "devDependencies": {
+        "@babel/cli": "^7.16.0",
+        "@babel/core": "^7.16.0",
+        "@babel/preset-env": "^7.16.0",
+        "@babel/preset-react": "^7.16.0",
+        "@babel/preset-typescript": "^7.16.0",
+        "babel-loader": "^8.2.3",
+        "css-loader": "^6.5.0",
+        "extract-text-webpack-plugin": "^2.1.2",
+        "node-sass": "^6.0.1",
+        "sass-loader": "^12.3.0",
+        "style-loader": "^3.3.1",
+        "webpack": "^5.61.0",
+        "webpack-cli": "^4.9.1",
+        "webpack-dev-server": "^4.4.0"
+    }
+}
